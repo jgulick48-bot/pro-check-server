@@ -5,7 +5,7 @@ go 1.24
 require (
 	github.com/eclipse/paho.mqtt.golang v1.5.0
 	github.com/gorilla/mux v1.8.1
-	github.com/jgulick48/mopeka_pro_check v0.0.30
+	github.com/jgulick48/mopeka_pro_check v0.1.0
 	github.com/prometheus/client_golang v1.20.5
 )
 
@@ -23,5 +23,3 @@ require (
 	golang.org/x/sys v0.30.0 // indirect
 	google.golang.org/protobuf v1.34.2 // indirect
 )
-
-replace github.com/jgulick48/mopeka_pro_check => github.com/jgulick48-bot/mopeka_pro_check v0.0.32-0.20261117220633-ac6d8119bfff
